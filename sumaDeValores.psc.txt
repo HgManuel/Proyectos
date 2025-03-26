@@ -1,0 +1,18 @@
+Algoritmo sumaDeValores
+	//calcular e imprimir la suma de una secuencia de enteros, suponiendo que el primer entero leido especifica el numero de valores a introducir
+	
+	DEFINIR cantidad, i, valor, suma Como Entero
+	
+	Escribir "Introduzca la cantidad de valores:"
+	Leer cantidad
+	
+	suma<- 0
+	
+	Para i <- 1 hasta cantidad con paso 1 hacer 
+		Escribir "Introduce el valor " i, ":"
+		Leer valor
+		suma <- suma + valor
+	FinPara
+	
+	Escribir "La suma de los valores es:" , suma
+FinAlgoritmo
