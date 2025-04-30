@@ -1,3 +1,3 @@
 # Projectos
 
-Carpeta de projectos de programacion
+Carpeta de proyectos de programacion
