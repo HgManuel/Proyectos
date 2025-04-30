@@ -1,0 +1,5 @@
+presion = float(input("Ingrese la presion: "))
+volumen = float(input("ingrese el volumen: "))
+temperatura = float(input("ingrese la temperatura: "))
+masa = float(presion*volumen)/float(0.37*float(temperatura+460))
+print(masa)
